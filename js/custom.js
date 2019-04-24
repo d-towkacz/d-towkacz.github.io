@@ -34,6 +34,7 @@ $(window).load(function () {
         offset_opacity = 1200,
         scroll_top_duration = 700,
         $back_to_top = $('.cd-top');
+      
 
     //hide or show the "back to top" link
     $(window).scroll(function () {
@@ -50,6 +51,8 @@ $(window).load(function () {
             scrollTop: 0,
         }, scroll_top_duration);
     });
+
+
 
     // input
     $(".input-contact input, .textarea-contact textarea").focus(function () {
