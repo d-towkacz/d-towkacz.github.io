@@ -468,9 +468,13 @@ b i:last-child {
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;
-    border: 2px solid #888;
+    border: 1px solid #515151;
     -webkit-animation: intro 1s;
     animation: intro 1s;
+    background: white;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.25);
+    box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.25);
 }
 
 .scroll {
@@ -908,7 +912,7 @@ footer img {
 
 .top-bar {
     color: #333;
-    padding: 150px 0 150px;
+    padding: 130px 0 130px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
     background-size: cover;
@@ -921,7 +925,7 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #6b6b6b;
     line-height: 50px;
 }
 
@@ -1143,6 +1147,12 @@ textarea:focus {
     .col-md-6 h3 {
         margin-top: 30px;
     }
+    .top-bar {
+        color: #333;
+        padding: 70px 0 70px;
+    }
+
+
 }
 
 @media only screen and (max-width: 670px) {
@@ -1215,5 +1225,5 @@ textarea:focus {
   background-size: cover;
 }
 .box-intro {
-  background-image:linear-gradient(to bottom, #ffffff80, #ffffffb3, #fff);
+  background-image:linear-gradient(to bottom, #ffffff, #ffffffd4, #ffffff42);
 }
