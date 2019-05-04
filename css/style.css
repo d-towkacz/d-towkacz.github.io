@@ -1206,8 +1206,14 @@ textarea:focus {
 
 }
 
-/*
-.chaport-launcher-button {
-  display: none !important;
+.container-fluid.header-back {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+  background: url(../img/background-section.jpg);
+  background-size: cover;
 }
-*/
+.box-intro {
+  background-image:linear-gradient(to bottom, #ffffff80, #ffffffb3, #fff);
+}
